@@ -1,0 +1,107 @@
+/*=============navBar============ */
+#app>nav {
+    background-color: #ee621f;
+    margin-bottom: 10px
+}
+
+#app>nav a {
+    color: white;
+}
+
+#app>nav .show a {
+    color: black
+}
+
+/*=============End navBar===========  */
+.form-group label {
+    font-size: 17px;
+}
+
+.table td {
+    vertical-align: middle
+}
+
+/*================ footer============ */
+footer ul {
+    background-color: #ee621f;
+    height: 150px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 20px;
+
+
+}
+
+footer ul a {
+    color: white;
+}
+
+/* =======end footer=========== */
+
+
+/* user avatar index */
+#users .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+/* end user avatar */
+
+/* ===setting dashboard */
+.setting label ,.user-info label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.setting span  {
+    font-size: 16px;
+}
+.user-info{
+    border-bottom: 1px solid;
+}
+.user-info span  a{
+    margin:1px;
+    font-size:45px
+}
+.user-info .youtube a{
+    color:red
+}
+
+/* endsetting */
+
+/* profile */
+.profile .name,
+.profile .avatar,
+.profile .email,
+.profile .password {
+    padding: 0 0 10px 50px;
+
+}
+
+/* dashboard */
+.dashboard .card .alert-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.dashboard .card .alert-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.dashboard .card .alert-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.dashboard .card .alert-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+    /* end dashboard */
